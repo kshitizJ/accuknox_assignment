@@ -28,3 +28,14 @@
 
 9. I'm attaching the code output from my console here.
 
+- Signals are executed synchronously
+(https://raw.githubusercontent.com/kshitizJ/accuknox_assignment/refs/heads/master/images/Screenshot%20from%202024-10-01%2012-05-48.png)
+
+- Signals run in the same thread of the caller function
+(https://raw.githubusercontent.com/kshitizJ/accuknox_assignment/refs/heads/master/images/Screenshot%20from%202024-10-01%2012-21-14.png)
+
+- Signals can run before or after the transaction in the database. Here in my case signal ran during the transaction was executed so we get the value `true`
+(https://raw.githubusercontent.com/kshitizJ/accuknox_assignment/refs/heads/master/images/Screenshot%20from%202024-10-01%2012-25-18.png)
+
+- I ran the `rectangle.py` file and got the following output
+(https://raw.githubusercontent.com/kshitizJ/accuknox_assignment/refs/heads/master/images/Screenshot%20from%202024-10-01%2012-36-54.png)
